@@ -57,7 +57,7 @@ class Document extends AbstractDocument
     /**
      * {@inheritdoc}
      */
-    public function jsonSerialize()
+    public function jsonSerialize():mixed
     {
         return $this->getFields();
     }
